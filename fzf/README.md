@@ -7,3 +7,7 @@ This tool is a fuzzy finder.  It can be used in a variety of ways, but the most 
 ```
 
 In this fashion, it is separating options by the presents of a new line.  So whitespace separated strings will be interpreted as a single option.
+
+
+
+for more information, see the github [README](https://github.com/junegunn/fzf)
