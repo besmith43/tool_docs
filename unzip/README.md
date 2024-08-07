@@ -7,4 +7,5 @@ Unzip does exactly what it says on the tin.  It extracts zip files.
 	unzip *.zip
 ```
 
+![unzip demo](/assets/gifs/unzip.gif)
 

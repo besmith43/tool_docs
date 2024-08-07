@@ -3,7 +3,6 @@
 This is a unix archive tool.  It pretty simple to use but it is very similiar to zip files.
 
 
-
 ### Basic Usage
 
 ##### Creating a Tar
@@ -24,3 +23,4 @@ This is a unix archive tool.  It pretty simple to use but it is very similiar to
 	tar -xvf output.tar.gz
 ```
 
+![tar demo](/assets/gifs/tar.gif)
