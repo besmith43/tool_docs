@@ -19,3 +19,6 @@ git clone: this will clone the current state of a repository onto your computer 
 git checkout: this is how you'll swap between branches.  Branches are the best way to development a feature in isolation, and to maintain particular tracks.  For example with a website's git repo, we may have 3 main branches: Development, Test, and Prod.  Each one of these is designed to be a representation of the code on each of the 3 servers.
 
 git branch: this is how you'll look at the available branches or check which branch you currently have checked out (aka are using).
+
+
+for more information and up to date documentation go to [git-scm.org](https://git-scm.com/doc)
