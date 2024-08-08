@@ -37,6 +37,8 @@ this is how you'll look at the available branches or check which branch you curr
 
 for more information and up to date documentation go to [git-scm.org](https://git-scm.com/doc)
 
+Also see this [Digital Ocean Article](https://www.digitalocean.com/community/tutorials/how-to-use-git-effectively)
+
 After you feel comfortable with git and how it works, I'd highly recommend reading the book, [Treat Your Code as a Crime Scene](https://pragprog.com/titles/atcrime2/your-code-as-a-crime-scene-second-edition/).
 All throughout the book, the author uses git features to see historical data for a massive git repo.
 It won't necessarily make you better at using git, but it will help open your mind to the possibilities and features that git has to offer you to solve questions you don't yet know to ask.
