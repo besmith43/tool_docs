@@ -53,6 +53,7 @@ Why don't we start with adding a timestamp to this log entry?
 
 Now it's starting to get useful.
 Right!?
+The list of available time stamp options can be found [here](https://pkg.go.dev/time#pkg-constants)
 
 Well let's make it even better by turning on structured logging and having it detail the script that's generated the log entry.
 
