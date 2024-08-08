@@ -25,19 +25,22 @@ This command creates a .git folder in your root directory that stores all of thi
 
 ![git init](/assets/images/git_init.png)
 
-4. Then make a file.  In git bash you can use "touch file1.txt" to create an empty file named file1.txt, and in powershell you can use "new-item file1.txt" to do the same thing.
+4. Then make a file.
+In git bash you can use "touch file1.txt" to create an empty file named file1.txt, and in powershell you can use "new-item file1.txt" to do the same thing.
 
 ```bash
 	touch file1.txt
 ```
 
-5. Let's take a look at the git repo as git sees it.  To do so, run the following git command:
+5. Let's take a look at the git repo as git sees it.
+To do so, run the following git command:
 
 ```bash
 	git status
 ```
 
-The git status command displays the currently tracked and untracked files, as well as notes any files who's contents have changed since the last commit.  This is a very hand command to run.
+The git status command displays the currently tracked and untracked files, as well as notes any files who's contents have changed since the last commit.
+This is a very hand command to run.
 
 ![git status](/assets/images/git_status.png)
 
@@ -48,11 +51,15 @@ The git status command displays the currently tracked and untracked files, as we
 	git commit -m "initial commit"
 ```
 
-For git add, the -A flag stands for All, so we're telling git to add all untracked and any file changes to a new commit.  Then with git commit, the -m flag is setting the new commit we just started with the previous command to have a message of "initial commit".  This message can be anything that you'd like, but try to make it valuable.  Your future self will appreciate it.
+For git add, the -A flag stands for All, so we're telling git to add all untracked and any file changes to a new commit.
+Then with git commit, the -m flag is setting the new commit we just started with the previous command to have a message of "initial commit".
+This message can be anything that you'd like, but try to make it valuable.
+Your future self will appreciate it.
 
 ![git add and commit](/assets/images/git_add_commit.png)
 
-7. Run "git checkout -b feature-one" to create a new branch based on the current state of the master branch.  Here the -b flag is telling git to create a new branch called feature-one and check it out.
+7. Run "git checkout -b feature-one" to create a new branch based on the current state of the master branch.
+Here the -b flag is telling git to create a new branch called feature-one and check it out.
 
 ```bash
 	git checkout -b feature-one
