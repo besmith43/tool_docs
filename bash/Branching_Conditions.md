@@ -19,7 +19,7 @@ We can expand on the previous example to perform multiple checks with elif.
 ```bash
 if [ -d ~/Documents ]; then
 	# do something if the documents folder exists
-elif [  -f ~/Desktop ]; then
+elif [ -d ~/Desktop ]; then
 	# do something if desktop folder exists but the documents folder doesn't
 else
 	# do something if false

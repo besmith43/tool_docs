@@ -1,9 +1,9 @@
 # Loops
 
-Bash has many of the same loop logic options that you'd expect in a language like while loops, for loops, foreach loops, and switch statements.
+Bash has many of the same loop-logic options that you'd expect in a language like while loops, for loops, foreach loops, and switch statements.
 
 
-While Loops
+### While Loops
 
 ```bash
 i=0
@@ -19,10 +19,8 @@ Here we're checking if $i is less than or equal to 2 at the start of each loop.
 Then writing the string "Number: $i" where $i is the current value of $i and incremented $i by one inside of each loop.
 Do and Done are keywords to signify the beginning and end of each loop much like then and fi did for the if / else block.
 
-You can use break to exit the while loop early or continue to skip the rest of the current iteration of the while loop and start the next one early.
 
-
-For Loops
+### For Loops
 
 Here is a C style for loop in bash
 

@@ -2,21 +2,18 @@
 
 In bash variable assignment, spaces matter.
 
-Will work
-
 ```bash
+# the correct way
 Var1="testing variables"
 ```
 
-Will error out because bash expects Var2 to be a command
-
 ```bash
+# Will error out because bash expects Var2 to be a command
 Var2 = "testing variables"
 ```
 
-You can also store the output of commands into variables like so
-
 ```bash
+# You can also store the output of commands into variables like so
 Var3=$(ls)
 ```
 
