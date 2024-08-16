@@ -12,6 +12,12 @@ if [ ! -f $(which gum) ]; then
 	exit 1
 fi
 
+if [ "$(uname)" == "Darwin" ]; then
+	SED="sed"
+else
+	SED="sed -e"
+fi
+
 INFOLOG="gum log -l info -t datetime"
 ERRORLOG="gum log -l error -t datetime"
 CWD=$(pwd)
@@ -59,7 +65,7 @@ do
 	# find $content_dir -name *.md -exec sed '/gifs/d' {} > {} \;
 	# find $content_dir -name *.md -exec sed 's/\/assets/..\/..\/assets/g' {} > {} \;
 	
-	content_dir=$(echo $content_dir | sed 's/.\///g')
+	content_dir=$(echo $content_dir | $SED 's/.\///g')
 
 	$INFOLOG "working on $content_dir"
 
@@ -81,7 +87,7 @@ do
 
 		# echo "cat ../$content_dir/$file | sed '/gifs/d' | sed 's/\/assets/...\/.\/assets/g' > $content_dir/$file"
 		# cat ../$content_dir/$file | sed '/gifs/d' | sed 's/\/assets/..\/..\/assets/g' > $content_dir/$file
-		cat ../$content_dir/$file | sed '/\/gifs\//d' | sed 's/\/assets/..\/assets/g' > $content_dir/$file
+		cat ../$content_dir/$file | $SED '/\/gifs\//d' | $SED 's/\/assets/..\/assets/g' > $content_dir/$file
 	done
 done
 
