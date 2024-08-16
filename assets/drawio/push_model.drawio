@@ -178,12 +178,6 @@
                 <mxCell id="49" value="hosted" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="700" y="874" width="60" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="50" value="&lt;h1&gt;Pros&lt;/h1&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
-                    <mxGeometry x="17.5" y="887" width="190" height="120" as="geometry"/>
-                </mxCell>
-                <mxCell id="51" value="&lt;h1&gt;Cons&lt;/h1&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
-                    <mxGeometry x="320" y="887" width="190" height="120" as="geometry"/>
-                </mxCell>
             </root>
         </mxGraphModel>
     </diagram>
