@@ -158,5 +158,29 @@ It can be done like this:
 	git merge --squash new_feature
 ```
 
+### BONUS ROUND: CHERRY PICKING FILES FROM OTHER BRANCHES
 
+So git has the ability to allow you to pluck a file from another branch and import it's current state into your current branch.
+This can be done with the checkout subcommand.
+Hop to the branch that you want to put the file or pattern, as it does handle wildcards, with the following:
 
+```bash
+	git checkout dest_branch
+```
+
+Then checkout the from the source branch the file or pattern that you want like so:
+
+```bash
+	git checkout src_branch file
+```
+
+or with a pattern:
+
+```bash
+	git checkout src_branch src/*
+```
+
+### References
+
+[git merge docs](https://git-scm.com/docs/git-merge)
+[git cherry picking](https://www.30secondsofcode.org/git/s/copy-file-from-branch/)
