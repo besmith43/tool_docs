@@ -7,7 +7,7 @@ When we work merge history, we're basically becoming time wizards, and the actio
 ### Commit History
 
 Let's start by looking at what happens when we make a commit.
-First, the diff of the changes of the file(s) that we've selected for the current commit are saved.
+First, it takes a complete snapshot of the tracked files and directories at that point in time, but it also tracks the specific changes made between the current commit and the previous latest commit.
 When we talk about diffs, we're dicussing the "+this line", "-that line" of text that you see when you look at commits in the web browser.
 Very similar to this:
 
