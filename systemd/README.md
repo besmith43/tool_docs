@@ -5,6 +5,7 @@ It allows you to define services and have them start and stop with the system, a
 There are alot of different options available in SystemD when writing the service configuration, but for starters, let's make a service out of a simple bash script.
 
 Contents of the script (aka our service)
+
 ```bash
 #!/usr/bin/env bash
 
