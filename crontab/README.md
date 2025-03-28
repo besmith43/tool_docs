@@ -36,3 +36,6 @@ So for example, if we need to run a script every 5 minutes but only on Saturdays
 */5 * * * 6 /path/to/script.sh
 ```
 
+### References
+
+[Crontab Guru](https://crontab.guru/)
